@@ -1,0 +1,4 @@
+DEFINICIONES 3
+
+* Arrays: Es el conjunto de uno o más elementos encerrados con [] 
+Puede tener números, strings, otros arreglos, etc.

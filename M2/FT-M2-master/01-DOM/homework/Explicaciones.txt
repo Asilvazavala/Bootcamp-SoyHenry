@@ -1,0 +1,19 @@
+	* DOM: (Document Object Model)
+    Cuando un navegador carga una página web, accede al contenido HTML para poder
+    crear un modelo que manejamos con JavaScript y así, modificar elementos o estilos.
+
+	* DOM element selectors:
+    Son los métodos que contiene document en su prototipo, nos permitiran buscar y
+    recuperar un elemento del DOM, el cual es un objeto JS que representa una entidad HTML.
+    Los 5 principales selectors son:
+    -getElementsByClassName
+    -getElementById
+    -querySelecto
+    -querySelectorAll
+    -createElement
+
+	* DOM events:
+    Es una función que se ejecuta luego de que ocurra un determinado evento.
+    Existen diferentes tipos de eventos, entre ellos se encuentran:
+    -Click
+    -addEventListener

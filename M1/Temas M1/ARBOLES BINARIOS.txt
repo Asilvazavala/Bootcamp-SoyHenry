@@ -1,0 +1,40 @@
+Estructura Arboles Binarios
+class BinarySearchTree{
+  constructor(data) {
+    this.data = data;   //nodo actual
+    this.left = null;   //nodo hijo a la izquierda
+    this.right = null;} //nodo hijo a la derecha
+
+size():
+Retorna la cantidad total de nodos del árbol
+Caso Base:  if (!this.left && !this.right) return 1;
+1.- Revisar si hay nodo actual
+  1.1- Si no hay, retornar null
+  1.2- Si si hay, suma 1 y continúa al paso 2
+2.- Revisar si el actual nodo tiene this.left 
+  2.1- Si si hay, suma 1 y continúa al paso 3
+  2.2- Si no hay, continúa al paso 3
+3.- Revisar si el actual nodo tiene this.right 
+  3.1- Si si hay, suma 1 y continúa al paso 4
+  3.2- Si no hay, continúa al paso 4
+4.- Retorna la sumatoria
+
+insert():
+Agrega un nodo en el lugar correspondiente (Mayor derecha---Menor izquierda)
+Caso Base:  if (!this.left && !this.right) return data;
+1.- Revisar si hay nodo actual
+  1.1- Si no hay, insertar ADD en la 1 posición FIN
+  1.2- Si si hay, comparar si el nodo actual es mayor o menor que ADD
+2.- Si es mayor, revisar si right y left son vacíos, si se cumple poner ADD en right FIN
+3.- Si right tiene data y left no, revisar si right tiene right y left
+  3.1- Si no tiene poner ADD en right
+  3.2- Comparar, si ADD es mayor que right 
+
+contains(): 
+Retorna true o false al evaular si existe el parametro
+Caso Base: if (this.value === value) return true;
+1.- Comparar si el valor actual es igual al parametro dado
+2.- Si hay left y dentro de left existe el valor da true
+3.- Si hay right y dentro de right existe el valor da true
+4.- Si no hay concidencia, da false
+ 

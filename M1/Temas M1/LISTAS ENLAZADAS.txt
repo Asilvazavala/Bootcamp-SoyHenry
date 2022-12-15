@@ -1,0 +1,44 @@
+Estructura Listas Enlazadas
+class LinkedList {
+  constructor(){
+  this.head = null;   //es el primer nodo de la lista}
+
+class Node {
+  constructor(value) {
+  this.value = value; //es el Nodo actual (Objeto)
+  this.next = null;  // es el siguiente nodo al que se apunta 
+  }
+
+AGREGAR NODO AL FINAL DE LA LISTA 
+1.- Verificar si hay un head
+  1.1- Si no hay, asignar el head al nodo que estamos agregando
+  1.2- Si si hay, continuar con el paso 2.
+2.- Verificar si hay un Next 
+  2.1- Si si hay, continuar la búsqueda en el siguiente nodo con while
+  2.2- Si no hay, asignar a next el valor del nodo actual
+
+ELIMINAR EL ULTIMO NODO Y RETORNAR SU VALOR
+***LISTA VACÍA***
+1.- Verificar si hay un head
+  1.1- Si no hay, mensaje de "No hay nodos, lista vacía"
+
+***LISTA DE UNO O MÁS NODOS***
+1.- Verificar si hay head
+  1.1- Si si hay, continuar con el paso 2
+2.- Verificar si hay next.next
+  2.1- Si si hay, seguir revisando con el siguiente nodo con while
+  2.2- Si no hay next, asignar el head como "null"
+3.- Regresar el valor.
+
+BUSCAR NODOS 
+***CON VALOR search(2) O CALLBACK search(cb)***
+1.- Verificar si hay un head
+  1.1- Si no hay, mensaje de "No hay nodos, lista vacía"
+  1.2.- Si si hay, continuar con el paso 2
+2.- Comparar el value que buscamos con el del nodo actual con while
+  2.1- Si coincide, return value
+  2.2- Si no conicide, buscar en el siguiente nodo
+3.- Comparar typeof value === 'function' para el cb
+    (value(current.value))	
+4.- Si no hay coincidencia en ninguno retornar null
+

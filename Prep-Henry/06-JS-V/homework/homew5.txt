@@ -1,0 +1,7 @@
+DEFINICIONES 5
+
+	* `prototype`: Es la forma en la que los objetos de JavaScript heredan características unos
+	de otros.
+
+	* _Constructors_ (de Clases): Es una función que se usa para crear nuevos objetos, (normalmente	
+	se escribe con la primera mayúscula).

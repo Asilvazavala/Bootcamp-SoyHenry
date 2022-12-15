@@ -1,0 +1,13 @@
+* Framework:
+Es un marco de referencia, es decir, te facilita la vida al predefinirse una base de estilos,
+procesos, etc. para empezar a trabajar. EJemplo: Bootstrap.
+
+
+* Preprocesador: 
+Es un programa que añade características que no existen en CSS puro, como variable, mixins, 
+selectores anidados, etc. Ejemplo: LESS.
+
+
+* Responsive website:
+Cuando queremos que nuestra página se vea 'linda' en cualquier dispositivo, necesitamos hacer 
+algunos ajustes a las propiedades de los elementos en función del dispositivo

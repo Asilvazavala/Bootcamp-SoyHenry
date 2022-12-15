@@ -1,0 +1,31 @@
+Estructura Hash Table:
+class HashTable {
+  constructor() {
+    this.buckets = [];
+    this.numBuckets = 35;}
+
+hash(value): 
+Determina en que posición se almacenará el dato.
+1.- Calcular el código númerico de cada caracter con for y 
+value.charCodeAt()
+2.- Sumar todos los valores en una variable 
+3.- Asignar la suma a la posición en el array de la tabla con 
+suma % this.num.
+
+set(clave, valor):  
+Incoca a "Hash" para guardar los parámetros en la posición correcta
+1.- Guardar la invocación de hash(clave) en una variable
+2.- Si la posición del arreglo esta vacía, crear obj
+3.- Guardar "valor" en la posición de hash(clave)
+
+get(clave): 
+Hashea "Clave" y con el resultado busca el valor que le
+corresponde en la tabla
+1.- Guardar la invocación de hash(clave) en una variable
+2.- Retorna el valor de la posición hash(clave)
+
+hasKey(clave): Consulta si ya hay algo almacenado en la tabla con
+esa clave (retorna un booleano)
+1.- Guardar la invocación de hash(clave) en una variable
+2.- Verifica si en la posición de la tabla tiene la propiedad (clave)
+3.- Retorna true o false

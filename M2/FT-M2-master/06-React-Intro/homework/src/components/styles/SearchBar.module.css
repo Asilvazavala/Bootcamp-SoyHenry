@@ -1,0 +1,18 @@
+.container{
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.btnSearch{
+    color: #34FC44;
+    background-color: #64606D;
+    border: 2px solid #34FC44;
+} 
+
+.btnSearch:hover{
+    color: #64606D;
+    background-color: #34FC44;
+    border: 2px solid #64606D;
+}

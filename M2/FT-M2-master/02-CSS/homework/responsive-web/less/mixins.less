@@ -1,0 +1,45 @@
+// Mixins acá
+.barNav {
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    display:flex;
+    justify-content: center;
+    background-color: @nav-bg;
+    @media @phone{
+        width: 100%;
+    }
+}
+
+.liItems {
+    padding: 15px;
+    color: @header-font-color;
+    font-size: 2em;
+    text-decoration: none;
+    @media @phone{
+        width: 100%;
+    }
+}
+
+.ImgSmall {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    @media @phone{
+        width: 100%;
+    }
+}
+
+.btns (@colorLetter: white; @font-si: 16px){
+    color: @colorLetter;
+    font-size: @font-si;
+    background-color: @header-font-color;
+    font-family: 'Helvetica', sans-serif; 
+    border-radius: 10px; /*bordes redondos*/
+    padding: 10px; //Relleno de todos los lados
+    text-align: center; 
+    display: inline-block;
+    @media @phone{
+        width: 100%;
+    }
+}

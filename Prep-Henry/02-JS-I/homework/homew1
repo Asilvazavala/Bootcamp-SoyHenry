@@ -1,0 +1,17 @@
+DEFINICIONES 1
+
+Variables: Es un elemento al que asignas un valor, ejemplo: a=1
+
+Strings: Es un conjunto de caracteres que forman una palabra y van entre comilla simple, ejemplo: 'Hola'
+
+Funciones (argumentos, return): Es una instrucción para simplificar operaciones que se repiten, debe llevar párametros (argumentos), devuelve un resultado (return), Ejemplo: function sumaDosNumeros (a, b){
+var suma = a + b;
+return suma;}
+
+Declaraciones if: Es una condición para saber si una declaración se cumple o no, Ejemplo: if (edad >= 18) 
+
+Valores booleanos (true, false): Es una expresión que representa si el valor es verdadero, falso o nulo
+Ejemplo: if (edad >= 18) 
+return true;}
+return false;}
+Si la edad es mayor a 18 el resultado es true, de lo contrario es false

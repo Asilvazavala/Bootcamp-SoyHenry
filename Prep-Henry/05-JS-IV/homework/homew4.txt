@@ -1,0 +1,16 @@
+DEFINICIONES 4
+
+	* Objetos: Es una lista de propiedades (claves únicas) a los que se les asigna un valor que puede ser
+	de cualquier tipo (string, numero, array, funciones, objetos, etc.) Va entre  encerrado entre llaves {}
+ 
+	* Propiedades: Son las claves únicas que contiene un objeto.
+
+	* Métodos: Son las funciones que van adentro de una propiedad (clave única)
+
+	* Bucle `for…in`: Es un bucle que itera las claves del objeto, podemos usar también la notación de
+	corchetes para acceder al valor asociado a esa clave.
+
+	* Notación de puntos vs notación de corchetes: Con la notación de puntos podemos llamar al nombre del objeto
+	un punto y el nombre de la clave para que nos devuelva el valor.
+	La notación de corchetes es similar, solo que se llama al valor de una matriz con corchetes, debemos de
+	usar una cadena o número.
